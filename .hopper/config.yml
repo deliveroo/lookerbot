@@ -5,5 +5,5 @@ services:
    containerDefinitions:
      web:
        cpu: 256
-       memory: 10240
+       memory: 2048
        essential: true
