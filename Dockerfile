@@ -1,4 +1,4 @@
-FROM deliveroo/hopper-runner:1.5.2 as hopper-runner
+FROM deliveroo/hopper-runner:1.8.0 as hopper-runner
 FROM node:10
 
 COPY --from=hopper-runner /hopper-runner /usr/bin/hopper-runner
